@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANSPORTES NUEVO AMANECER </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="icon" type="image/x-icon" href="img/NuevoAmanecer.png"/>
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-md navbar-light" id="barramenu">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="">
+          <img src="img/NuevoAmanecer.png" class="imgMenu">
+        </a>
+
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div id="MenuNavegacion" class="collapse navbar-collapse">
+          <ul class="navbar-nav mx-auto" >
+              <li class="nav-item  limenu">
+                  <a class="nav-link active  menubar " href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item limenu">
+                <a class="nav-link menubar " href="Servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item limenu">
+                <a class="nav-link menubar" href="destinos.html">Destinos</a>
+              </li>
+              <li class="nav-item limenu">
+                <a class="nav-link menubar" href="Nosotros.html">Nosotros</a>
+              </li>
+                <li class="nav-item limenu">
+                    <a class="nav-link menubar" href="experiencias.html">Experiencias</a>
+                  </li>
+              </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+  <br>
+  
+  <div id="CarruselUno" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner carruselPresenta">
+          <div class="carousel-item active">
+            <img src="img/CarruselPresentacion/puno.jpg" class="d-block w-100 Ciudad1" alt="Ciudad1" >
+          </div>
+          <div class="carousel-item">
+            <img src="img/CarruselPresentacion/ciudadMachuPicchu.jpg" class="d-block w-100 Ciudad2"   alt="Ciudad2">
+          </div>
+          <div class="carousel-item">
+            <img src="img/CarruselPresentacion/cajamarca.jpg" class="d-block w-100 Ciudad3"  alt="Ciudad3">
+          </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#CarruselUno" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">antes</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#CarruselUno" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">despues</span>
+        </button>
+    </div>
+</div>
+<br> 
+<div class="container">
+  <div class="row formulario">
+    <div class="col">
+      <label class="lugar-embarque">Lugar de Embarque</label>
+      <div class="input-group opcionEmbarque">
+        <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+          <option selected>Seleccionar</option>
+          <option value="7">Trujillo</option>
+          <option value="1">Macchu Picchu</option>
+          <option value="2">Arequipa</option>
+          <option value="3">Piura</option>
+          <option value="4">Tarapoto</option>
+          <option value="5">Cajamarca</option>
+          <option value="6">Puno</option>
+        </select>
+      </div>    
+    </div>
+    <div class="col">
+      <label class="">Lugar de Destino</label>
+      <div class="input-group">
+        <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+          <option selected>Seleccionar</option>
+          <option value="7">Trujillo</option>
+          <option value="1">Macchu Picchu</option>
+          <option value="2">Arequipa</option>
+          <option value="3">Piura</option>
+          <option value="4">Tarapoto</option>
+          <option value="5">Cajamarca</option>
+          <option value="6">Puno</option>
+        </select>
+      </div>    
+    </div>
+    <div class="col">
+      <label>Fecha de Ida </label>
+      <div class="">
+        <input type="date" name="fecha_de_ida" class="form-control">
+      </div>
+    </div>
+    <div class="col">
+      <label>Fecha de Retorno </label>
+      <div class="">
+        <input class="form-control" type="date" name="fecha_de_salida">
+      </div>
+    </div>
+    <div class="col align-items-center">
+      <br>
+      <div class="boton-buscar">
+        <button type="button" class="btn btn-primary">Buscar</button>
+      </div>
+    </div>
+  </div>
+  <br>
+  <hr class="separadores">
+  
+</div>
+
+
+    <br>
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-md-6">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/1.png" class="d-block w-100" alt="Anuncio1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/2.png" class="d-block w-100" alt="Anuncio2">
+                      </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+        </div>       
+      </div>
+      <div class="col-md-6">
+        <h1 class="text-center fs-1 Texto1">¡BIENVENIDOS!</h1> <br>
+        <h4 class="text-center Texto1">"SOMOS UNA EMPRESA CONFIABLE Y SEGURA, GARANTIZAMOS SIEMPRE LA MEJOR EXPERIENCIA DE VIAJE DE NUESTROS CLIENTES"</h4> <br>
+        <h6 class="text-center fst-italic text-break h6text"> "Los viajes son en la juventud una parte de educación y, <br>en la vejez, una parte de experiencia." <br>Francis Bacon</h6>
+      </div> 
+  </div>
+</div> 
+       <br>
+<hr>
+        <br>
+<div class="container-fluid" id="Tarjeta">
+  <h1 class="mb-0 text-center " id="tituloviajar"> VIAJA Y CONOCE EL PERÚ</h1> <br>
+      <div class="row align-items-start text-center">
+        <div class="col-md-4">
+          <div class="card ">
+              <img src="img/macchuPicchu.jpeg" class="card-img-top" alt="MachuPicchu">
+              <div class="card-body">
+                <h5 class="card-title">Macchu Picchu</h5>
+                <p class="card-text">Sitio arqueológico inca más sobresaliente debido a su creativo diseño urbano, la belleza de su arquitectura y el fino trabajo en piedra de sus construcciones.</p>
+                <a href="destinos.html" class="btn btn-primary ">Información</a>
+              </div>
+          </div>
+          <br>
+        </div>
+        <div class="col-md-4">
+          <div class="card ">
+              <img src="img/Arequipa.jpeg" class="card-img-top" alt="arequipa">
+              <div class="card-body">
+                <h5 class="card-title">Arequipa</h5>
+                <p class="card-text">Heróica ciudad de los libre, Volcanes como el Misti, “Chanchani” (el Querido) y “Picchu Picchu” muestran su imponencia en los alrededores de la ciudad. </p>
+                <a href="#" class="btn btn-primary">Información</a>
+              </div>
+            </div>
+            <br>
+        </div>
+        <div class="col-md-4">
+          <div class="card ">
+              <img src="img/Piura.jpeg" class="card-img-top" alt="arequipa">
+              <div class="card-body">
+                <h5 class="card-title">Piura</h5>
+                <p class="card-text">Conocida por sus maravillosos edificios coloniales, sus lugares turisticos y sus hermosas playas como Máncora, Cabo Blanco,catarata de Caracucho y mas! </p>
+                <a href="#" class="btn btn-primary">Información</a>
+              </div>
+            </div>
+            <br>
+        </div>
+        
+  </div>
+</div>
+<div class="container-fluid" id="Tarjeta">
+  <div class="row align-items-center text-center">
+    <div class="col-md-4">
+        <div class="card">
+            <img src="img/Tarapoto.jpeg" class="card-img-top" alt="Tarapoto">
+            <div class="card-body">
+              <h5 class="card-title">Tarapoto</h5>
+              <p class="card-text">Conocida por sus numerosas cascadas en las selvas circundantes, incluidas Ahuashiyacu, Huacamaíllo y Shapaja. Al sureste de la ciudad, las aguas claras del lago Lindo y la Laguna Azul.</p>
+              <a href="#" class="btn btn-primary">Información</a>
+            </div>
+        </div>
+        <br>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+            <img src="img/Cajamarca.jpeg" class="card-img-top" alt="Cajamarca">
+            <div class="card-body">
+              <h5 class="card-title">Cajarmarca</h5>
+              <p class="card-text">Capital del carnaval peruano. Conocida por sus lugares turisticos como: Cuarto de rescate, baños del Inca, Casa Museo Nicolas Puga, Conjunto Monumental Belén, ventanillas de Otuzco.</p>
+              <a href="#" class="btn btn-primary">Información</a>
+            </div>
+        </div>
+        <br>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+          <img src="img/Puno.jpeg" class="card-img-top" alt="imgPuno">
+          <div class="card-body">
+            <h5 class="card-title">Puno</h5>
+            <p class="card-text">
+              Reconocida capital Folclorica de el Peru.
+              Conocoda por poseer el lago mas grande de latinoamerica, el lago TitiCaca y sus increibles islas, ademas de sus increibles costumbres.
+              Se habla el Quechua y Aymara.
+            </p>
+            <a href="#" class="btn btn-primary">Información</a>
+          </div>
+      </div>
+      <br>
+  </div>
+</div>
+<br>
+<hr>
+<br>
+<p ><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.0580196662795!2d-79.04096828584208!3d-8.095566083204409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3ddee38a5a23%3A0x69cbed0ac8430345!2sAv.%20Nicol%C3%A1s%20de%20Pi%C3%A9rola%2C%20Trujillo%2013011!5e0!3m2!1ses-419!2spe!4v1656475957608!5m2!1ses-419!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+
+<br>
+<div class="container-fluid footer-index">
+  <div class="footer-General">
+    <div class="row">
+      <div class="col-sm-3 col-xs-12 servicio">
+        <h6 class="titulo-footer">SERVICIOS</h6>
+        <a href="Servicios.html" class="contenido-footer">Servicios</a><br>
+        <a href="destinos.html" class="contenido-footer">Destinos</a><br>
+        <a href="experiencias.html" class="contenido-footer">Experiencias</a><br>
+        <br>
+      </div>
+      
+      <div class="col-sm-3 col-xs-12">
+        <h2 class="titulo-footer">INFORMACION</h2>
+          <a href="preguntas-frecuentes.html" class="contenido-footer">Preguntas frecuentes</a><br>
+          <a href="terminos-condiciones.html" class="contenido-footer">Terminos y Condiciones</a><br>
+          <a href="politicas.html" class="contenido-footer">Politicas de Privacidad</a><br>
+        <br>
+      </div>
+      <div class="col-sm-3 col-xs-12">
+        <h2 class="titulo-footer">CONTACTANOS</h2>
+        <p class="contenido-footer"> Telefono: <br> (044) 484120 - (044) 471521</p>
+        <p class="contenido-footer">Email: <br> informesnuevoamanecer@gmail.com</p>
+        
+      </div>
+      <div class="col-sm-3 col-xs-12">
+        
+        <h2 class="titulo-footer">UBICACION</h2>
+  
+          <p class="contenido-footer">Av. Jose Castelli Nº 900 <br> La Esperanza, La Libertad - Perú</p>
+  
+        <hr>
+            <a target="_blank" href="https://www.facebook.com/"><img src="img/icons/iconFacebook.png" alt="" width="50" height="50"></a>
+            <a target="_blank" href="https://www.youtube.com/"><img src="img/icons/iconYoutube.png" alt="" width="40" height="40"></a>
+            <a target="_blank" href="https://www.instagram.com/"><img src="img/icons/iconInstagram.jpg" alt="" width="40" height="40"></a>
+            <a target="_blank" href="https://twitter.com/i/flow/login"><img src="img/icons/iconTwitter.png" alt="" width="40" height="40"></a>
+        
+      </div>
+  
+    </div>
+  </div>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>            
+    <script src="js/scripts.js"></script>
+</body>
+</body>
+</html>

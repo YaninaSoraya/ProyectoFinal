@@ -1,0 +1,536 @@
+body{
+    overflow-x: hidden;
+}
+#barramenu{
+    height: 100px;
+    background-color: rgb(200, 226, 255);
+}
+#MenuNavegacion a{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 14pt;
+   color: rgba(0, 0, 0, 0.801);
+   
+}
+
+#MenuNavegacion a:hover{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 14pt;
+   font-weight: bold;
+   color: rgba(65, 30, 152, 0.801);
+   
+}
+
+
+hr{
+    color: black;
+    border: 1.5px solid black;
+
+}
+
+#agencia{
+    font-weight: 900;
+}
+.card-title{
+    margin-top: 10px;
+}
+     
+#tituloServicios{
+    font-weight: 900;
+    
+}
+.serviciosContenedores{
+    margin-top: 900px;
+}
+.footer-General{
+ padding: 30px 10px;
+}
+#tituloServicios{
+    padding: 20px 30px;
+    text-align: center;
+    margin: 10px auto;
+    width: 80%;
+}
+#Sb_tt{
+    padding: 25px;
+    font-weight: 900;
+
+}
+
+
+#barramenu{
+     height: 60px;
+     background-color: rgb(200, 226, 255);
+}
+#MenuNavegacion a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    color: rgba(0, 0, 0, 0.801);
+    
+}
+/*Inicio*/
+#Tarjeta {
+    font-family: Arial, Helvetica, sans-serif;
+    padding:1px ;
+    justify-content: center;
+}
+
+.Texto1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(22, 172, 253);
+}
+h4.Texto1{
+    color: rgb(105, 116, 119);
+}
+.h6text{
+    font-size: 14pt;
+}
+#tituloviajar{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+}
+/*cards*/
+.card{
+    background-color: rgb(170, 227, 240);
+}
+
+
+/*Forulario-Buscar CSS: Inicio*/
+
+.formulario{
+    padding:20px;
+	border:2px solid rgb(163, 162, 162);
+	border-radius: 8px;
+	margin:25px auto;
+}
+label{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14pt;
+}
+
+.boton-buscar .btn-outline-primary{
+   font-size: 1.00rem; 
+   align-items: center;
+}
+/* bienvenidos*/
+
+h4.Texto1 {
+    color: rgb(105, 116, 119);
+    font-size: 17pt;
+}
+
+.h6text {
+    font-size: 14pt;
+}
+
+
+/*Pie de pagina:*/
+.footer-index{
+    background-color: rgb(17, 104, 192);
+}
+.titulo-footer{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.contenido-footer{
+    color: aliceblue;
+    text-align:left;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+   }
+   /*   PAGINA NOSOTROS*/
+
+   .ParrNosotros{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12pt;
+}
+strong{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+}
+.tituloNosotros{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(32, 25, 230);
+}
+/*hr*/
+.nuesEmp{
+    width: 50%;
+    height: 3px;
+    border: 2px solid blue;
+}
+.titulos{
+    font-size: 16pt;
+    font-family:'Times New Roman', Times, serif;    
+}
+/*Pagina destinos*/
+#agencia{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35pt;
+}
+#card2{
+    border-radius: 20px;
+    border:3px solid rgb(56, 56, 245);
+}
+.image{
+    border-radius: 16px;
+}
+/* ACORDION EN CARDS*/
+.cuerpo{
+    text-align:left ;
+}
+.btnElegir{
+    text-align: center;
+    width: 100px;
+    height: 45px;
+    font-size: 14pt;
+}
+/*TIPO DE LETRA DE SELECT-OPTION*/
+.seleccionBus,.DirecHora.btnElegir,.card-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13pt;
+}
+.seleccionBus{
+    font-weight: bold;
+}
+.card-title{
+    font-size: 18pt;
+}
+/*Pagina experiencias*/
+.contenedor01{
+    width: 98%;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+
+}
+
+.textoinicial{
+    width: 80%;
+    margin: 30px auto;
+}
+.textoinicial__titulo{
+    width: 100%;
+    margin: 15px;
+    text-align: center;
+    color: brown;
+    font-weight: 900;
+}
+.textoinicial__titulo--parrafo{
+    padding: 20px;
+    width: 100%;
+    margin: 0px;
+}
+#fx{
+    width: 100%;
+}
+.btn-exp{
+    width: 60%;
+    margin: 20px;
+
+
+}
+/* PAGINA CONTACTO */
+
+form{
+    border:2px solid rgb(143, 142, 142);
+	background-color:#c0d9de;
+}
+select{
+	display:inline-block;
+    padding:6px 10px;
+	width: 350px;;
+	margin:5px 8px;
+}
+.TextContact{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    text-align: center;
+    color: blue;
+}
+/* Radio Butons*/
+.RadButSe{
+    padding: 9px 5px;
+    margin: 5px;
+}
+.BodyContacto{
+    background-color: rgb(127, 187, 220);
+}
+/*Pagina de Servicios*/
+
+#fx {
+    padding:20px;
+	border:2px solid cadetblue;
+	border-radius: 8px;
+	margin:1px auto;
+    padding-left: 50px;
+ }
+ #Sb_tt,#subTitSer,.textEmp{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35pt;
+ }
+ #subTitSer{
+    font-size: 27pt;
+    font-weight: bold;
+ }
+ .TextServ{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    list-style-image: url('../img/bus-2.png');
+ }
+ .textEmp{
+    font-size: 18pt;
+    font-weight: bold;
+ }
+
+ /*PAGINA DE POLITICAS DE PRIVACIDAD*/
+ .PoliPriv{
+    background-color: rgb(17, 8, 121);
+    color:white;
+    font-size: 18pt;
+}
+.tituloCondicio,.SubPolit{
+    font-style: italic;
+    font-weight: bold;
+}
+.tituloCondicio,.ParrPoliPriv,.SubPolit,.PoliPriv,.ListP{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.SubPolit{
+    font-size: 16pt;
+}
+.hrpolit{
+    width: 30%;
+    height: 5px;
+    border: 2px solid rgb(26, 26, 84);
+}
+.ListP,.ParrPoliPriv{
+list-style-image: url(../img/bus-2.png);
+font-size: 13pt;
+}
+
+@media only screen and (max-width:400px){
+    #barramenu{
+        z-index: 100;
+         background-color: rgb(173, 197, 227);
+         height: 100%;
+    }
+    #MenuNavegacion{
+        text-align: center;
+        background-color: rgb(175, 225, 244);
+    }
+    .imgMenu{
+        width: 100px;
+        height: 90px;
+    }
+    .Ciudad1,.Ciudad2,.Ciudad3{
+        width: 100%;
+        height: 240px;
+    }
+    .AnuncioD1,.AnuncioD2,.AnuncioD3{
+        width: 100%;
+        height: 240px;
+    }
+    form{
+        width:300px;
+        padding:50px;
+        border:2px solid #000;
+        border-radius:10px;
+        margin:32px auto;
+    }
+    .imgFormu{
+        margin: auto;
+        display: block;
+        width: 130px;
+        height: 90px;
+    }
+    /*Carrusel Destinos*/
+    .AnuncD1{
+        height: 250px;
+    }
+        /*imagen politicas*/
+
+    .ImgPolitic{
+        height: 100%;
+        width: 120%;
+    }
+    .TextBusC{
+        order: 1;
+    }
+    /*Experiencias*/
+    .ImgExp1{
+        width: 100%;
+        height: 150px;
+    }
+    #fx{
+        display: none;
+
+    }
+    .ColExp{
+        margin-left: -100%;
+    }
+    .ColExp1{
+        margin-right: -100%;
+    }
+    .contenedor02,.contenedor02,.contenedor03{
+        width: 90%;
+        border: 2px solid black;
+        padding: 20px;
+        margin: 20px;
+        background-color: rgb(255, 255, 255);
+    }
+}
+@media only screen and (min-width:401px) and (max-width:960px){
+    #barramenu{
+        z-index: 100;
+        background-color: rgb(173, 197, 227);
+        height: 100%;
+    }
+    /*BARRA DE MENU INICIO*/
+    #MenuNavegacion,.menubar{
+        text-align: center;
+        background: rgb(149, 218, 227);
+        padding: 10px 0;
+        border-radius: 20px;
+    }
+    .limenu{
+        padding: 4px 11px;
+        border: 2px solid white;
+        border-radius: 20px;
+    }
+   
+    .imgMenu{
+        width: 130px;
+        height: 90px;
+    }
+    .Ciudad1,.Ciudad2,.Ciudad3{
+        width: 100%;
+        height: 340px;
+    }
+    .AnuncioD1,.AnuncioD2,.AnuncioD3{
+        width: 100%;
+        height: 300px;
+    }
+    form{
+        width:400px;
+        padding:50px;
+        border:2px solid #000;
+        border-radius:10px;
+        margin:32px auto;
+
+    }
+    .imgFormu{
+        margin: auto;
+        display: block;
+        width: 250px;
+        height: 190px;
+    }
+    /*Carrusel Destinos*/
+    .AnuncD1{
+        height: 300px;
+    }
+         /*imagen politicas*/
+
+         .ImgPolitic{
+            height: 100%;
+            width: 120%;
+        }
+        .ImgExp1{
+            width: 100%;
+            height: 250px;
+        }
+        /* Pagina experiencias*/
+        #fx{
+           display: none;
+        }
+        .ColExp{
+            margin-left: -100%;
+        }
+        .ColExp1{
+            margin-right: -100%;
+        }
+        .contenedor01,.contenedor02,.contenedor03{
+            width: 90%;
+            border: 2px solid black;
+            padding: 20px;
+            margin: 20px;
+            background-color: rgb(255, 255, 255);
+        }
+}
+@media only screen and (min-width:961px){
+    .Ciudad1,.Ciudad2,.Ciudad3{
+        width: 100%;
+        height: 550px;
+    }
+    .imgMenu{
+        width:160px;
+         height:110px;
+    }
+    .imgBus{
+        width: 100%;
+        height: 550px;
+    }
+    .AnuncioD1,.AnuncioD2,.AnuncioD3{
+        width: 100%;
+        height: 500px;
+    }
+    /*FORMULARIO*/
+    form{
+        width:700px;
+        padding:30px;
+        border-radius:10px;
+        margin:32px auto;
+    }
+    .imgFormu{
+        margin: auto;
+        display: block;
+        width: 350px;
+        height: 250px;
+    }
+    .btnEnviar{
+        align-items: center;
+        width: 110px;
+        height: 50px;
+    }
+    /*Carrusel Destinos*/
+    .AnuncD1{
+        height: 500px;
+    }
+         /*imagen politicas*/
+
+         .ImgPolitic{
+            height: 100%;
+            width: 100%;
+        }
+        .ImgExp1{
+            width: 100%;
+            height: 600px;
+        }
+        .contenedor01,.contenedor02,.contenedor03{
+            width: 90%;
+            border: 2px solid black;
+            padding: 20px;
+            margin: 20px;
+            background-color: rgb(255, 255, 255);
+        }
+}
+
+/*Pagina de preguntas frecuentes*/
+
+.logo_pf{
+    margin: auto;
+    display: block;
+    width: 350px;
+    height: 250px;
+}
+.cuerpo_pf{
+    background-color:rgb(147, 195, 235) ;
+}
+.tx_pf{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
